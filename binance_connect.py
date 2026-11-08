@@ -20,8 +20,7 @@ import asyncio
 # client = Client(API_KEY, API_SECRET)
 
 #symbols = "BTCUSDT"
-API_KEY="STtdiv7IHIgsMI71sRaMmOersTqOu152lT3Lh9mtU2S1qvpZhwQ5nNH3shMmzpMG"
-API_SECRET="U0di7GZWvupvsZRbX48tjIRXLcg5m16ZIiagavM7d0TJGpmxSBysLxpxbwO9qfz2"
+# API_KEY / API_SECRET come from config_prod (env vars BINANCE_API_KEY, BINANCE_API_SECRET)
 client = Client(API_KEY, API_SECRET)
 # ORDER @ MARKET
 def PlaceBUY(amount,symbol):
